@@ -126,25 +126,6 @@ Page {
             //////////////////////////////////////////////////
 
             ExpandingSection {
-                title: "Font Families"
-
-                content.sourceComponent: ExpandingColumn {
-                    Label {
-                        width: parent.width
-                        font: Theme.fontFamily
-                        text: "Default: "+Theme.fontFamily
-                    }
-                    Label {
-                        width: parent.width
-                        font: Theme.fontFamilyHeading
-                        text: "Heading: "+Theme.fontFamilyHeading
-                    }
-                }
-            }
-
-            //////////////////////////////////////////////////
-
-            ExpandingSection {
                 title: "Font Sizes"
 
                 content.sourceComponent: ExpandingColumn {
