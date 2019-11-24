@@ -11,7 +11,6 @@ Page {
 
     property variant currentAmbience
     property string ambienceFile
-    property string ambiencePath
 
     // As the home screen image path changes with the ambience,
     // we can use it as an indicator when ambience changes.
@@ -40,10 +39,7 @@ Page {
             ambienceFile = readAll()
             ambienceFile = ambienceFile.replace(/'/g,"").replace("\n","")
 
-            ambiencePath = ambienceFile.substring(ambienceFile.lastIndexOf('/')+1, -1);
-            ambienceFile = ambienceFile.substring(ambienceFile.lastIndexOf('/')+1);
-
-            console.log("Current ambience file: "+ambiencePath+ambienceFile)
+            console.log("Current ambience file: "+ambienceFile)
 
             ambienceFileTimer.start()
         }
@@ -111,7 +107,7 @@ Page {
                             id: wallpaper
                             anchors.horizontalCenter: parent.horizontalCenter
                             asynchronous: true
-                            source: "file://"+ambiencePath+"images/"+currentAmbience["wallpaper"]
+                            source: Theme._homeBackgroundImage
                             width: Theme.coverSizeLarge.width
                             height: Theme.coverSizeLarge.height
                             fillMode: Image.PreserveAspectCrop
