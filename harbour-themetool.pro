@@ -15,6 +15,7 @@ TARGET = harbour-themetool
 CONFIG += sailfishapp_qml
 
 DISTFILES += qml/harbour-themetool.qml \
+    qml/components/CoverRect.qml \
     qml/components/ExpandingColumn.qml \
     qml/components/ThemeIcon.qml \
     qml/components/ThemeLabel.qml \

@@ -237,6 +237,21 @@ Page {
                     }
                 }
             }
+            //////////////////////////////////////////////////
+
+            ExpandingSection {
+                title: "Cover Sizes"
+                content.sourceComponent: ExpandingColumn {
+                    CoverRect {
+                        size: Theme.coverSizeSmall
+                        text: "Small"
+                    }
+                    CoverRect {
+                        size: Theme.coverSizeLarge
+                        text: "Large"
+                    }
+                }
+            }
         }
     }
 }
