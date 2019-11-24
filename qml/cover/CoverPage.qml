@@ -24,7 +24,6 @@ CoverBackground {
             right: parent.right
         }
         color: Theme.highlightDimmerColor
-        opacity: 0.9
     }
 
     Label {
@@ -35,6 +34,7 @@ CoverBackground {
             bottomMargin: Theme.paddingSmall
         }
         horizontalAlignment: Text.AlignHCenter
+        font.weight: Font.Bold
         text: "Theme\nTool"
     }
 
