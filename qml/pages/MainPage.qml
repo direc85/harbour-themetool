@@ -64,6 +64,13 @@ Page {
         }
     }
 
+    Process {
+        id: fontProcess
+        function setSize(size) {
+            start("/usr/bin/dconf", ["write","/desktop/jolla/theme/font/sizeCategory", size])
+        }
+    }
+
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
         anchors.fill: parent
@@ -141,6 +148,36 @@ Page {
                 title: "Font Sizes"
 
                 content.sourceComponent: ExpandingColumn {
+                    SectionHeader {
+                        text: "System font size"
+                    }
+                    Item {
+                        width: parent.width
+                        height: button.height
+                        Button {
+                            id: button
+                            width: Theme.buttonWidthExtraSmall
+                            anchors.left: parent.left
+                            text: "Normal"
+                            onClicked: fontProcess.setSize("'normal'")
+                        }
+                        Button {
+                            width: Theme.buttonWidthExtraSmall
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            text: "Large"
+                            onClicked: fontProcess.setSize("'large'")
+                        }
+                        Button {
+                            width: Theme.buttonWidthExtraSmall
+                            anchors.right: parent.right
+                            text: "Huge"
+                            onClicked: fontProcess.setSize("'huge'")
+                        }
+                    }
+
+                    SectionHeader {
+                        text: "Sample texts"
+                    }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeTiny
                         text: "Tiny ("+Theme.fontSizeTiny+"px)"
