@@ -15,7 +15,7 @@ Sources:
 Description: |
   Short description of my Sailfish OS Application
 Configure: none
-Builder: qmake5
+Builder: qtc5
 
 # This section specifies build dependencies that are resolved using pkgconfig.
 # This is the preferred way of specifying build dependencies for your package.
@@ -32,11 +32,10 @@ PkgConfigBR:
 # Runtime dependencies which are not automatically detected
 Requires:
   - sailfishsilica-qt5 >= 0.10.9
-  - libsailfishapp-launcher
 
 # All installed files
 Files:
-  - '%defattr(0644,root,root,-)'
+  - '%{_bindir}'
   - '%{_datadir}/%{name}'
   - '%{_datadir}/applications/%{name}.desktop'
   - '%{_datadir}/icons/hicolor/*/apps/%{name}.png'
