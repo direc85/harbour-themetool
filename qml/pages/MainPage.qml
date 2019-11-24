@@ -11,6 +11,18 @@ Page {
 
     property variant currentAmbience
     property string ambienceFile
+    property int rotationAngle
+
+    onOrientationChanged: {
+        if(orientation === Orientation.Portrait)
+            rotationAngle = 0
+        else if(orientation === Orientation.LandscapeInverted)
+            rotationAngle = 90
+        else if(orientation === Orientation.PortraitInverted)
+            rotationAngle = 180
+        else if(orientation === Orientation.Landscape)
+            rotationAngle = 270
+    }
 
     // As the home screen image path changes with the ambience,
     // we can use it as an indicator when ambience changes.
@@ -110,6 +122,7 @@ Page {
                     Item {
                         height: wallpaper.height
                         width: parent.width
+                        rotation: rotationAngle
                         Image {
                             id: wallpaper
                             anchors.horizontalCenter: parent.horizontalCenter
@@ -348,10 +361,12 @@ Page {
                 title: "Cover Sizes"
                 content.sourceComponent: ExpandingColumn {
                     CoverRect {
+                        rotation: rotationAngle
                         size: Theme.coverSizeSmall
                         text: "Small"
                     }
                     CoverRect {
+                        rotation: rotationAngle
                         size: Theme.coverSizeLarge
                         text: "Large"
                     }

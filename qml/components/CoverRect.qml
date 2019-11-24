@@ -8,11 +8,12 @@ Rectangle {
     height: size.height
     anchors.horizontalCenter: parent.horizontalCenter
     radius: Theme.iconSizeExtraSmall / 2
-    color: Theme.overlayBackgroundColor
+    color: Theme.rgba(Theme.highlightBackgroundColor, Theme.highlightBackgroundOpacity)
     border.color: Theme.primaryColor
     border.width: Theme.iconSizeExtraSmall / 10
     Label {
         id: label
         anchors.centerIn: parent
+        rotation: -parent.rotation
     }
 }
