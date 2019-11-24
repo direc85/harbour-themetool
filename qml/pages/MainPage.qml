@@ -13,6 +13,13 @@ Page {
     property string ambienceFile
     property string ambiencePath
 
+    // As the hightlight color *usually* changes with the current Ambience,
+    // we can try to use it as an indicator when theme as changed...
+    property variant _highlightColor: Theme.highlightColor
+    on_HighlightColorChanged: {
+        ambienceInfoTimer.start()
+    }
+
     Component.onCompleted: {
         ambienceInfoTimer.start()
     }
