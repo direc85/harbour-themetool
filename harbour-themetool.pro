@@ -14,6 +14,8 @@ TARGET = harbour-themetool
 
 CONFIG += sailfishapp # sailfishapp_i18n
 
+HEADERS += src/process.h
+
 SOURCES += src/harbour-themetool.cpp
 
 DISTFILES += qml/harbour-themetool.qml \
