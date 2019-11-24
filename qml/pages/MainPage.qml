@@ -51,7 +51,7 @@ Page {
         running: false
         repeat: false
         onTriggered: {
-            ambienceFileProcess.start("/bin/cat", [ambiencePath+ambienceFile])
+            ambienceFileProcess.start("/bin/cat", [ambienceFile])
         }
     }
 
