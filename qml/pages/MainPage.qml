@@ -1,5 +1,6 @@
 import QtQuick 2.6
 import Sailfish.Silica 1.0
+import Process 1.0
 import "../components"
 
 Page {
@@ -7,6 +8,58 @@ Page {
 
     // The effective value will be restricted by ApplicationWindow.allowedOrientations
     allowedOrientations: Orientation.All
+
+    property variant currentAmbience
+    property string ambienceFile
+    property string ambiencePath
+
+    Component.onCompleted: {
+        ambienceInfoTimer.start()
+    }
+
+    Timer {
+        id: ambienceInfoTimer
+        interval: 100
+        running: false
+        repeat: false
+        onTriggered: {
+            ambienceInfoProcess.start("/usr/bin/dconf", ["read", "/desktop/jolla/theme/active_ambience"])
+        }
+    }
+
+    Process {
+        id: ambienceInfoProcess
+        onFinished: {
+            ambienceFile = readAll()
+            ambienceFile = ambienceFile.replace(/'/g,"").replace("\n","")
+
+            ambiencePath = ambienceFile.substring(ambienceFile.lastIndexOf('/')+1, -1);
+            ambienceFile = ambienceFile.substring(ambienceFile.lastIndexOf('/')+1);
+
+            console.log("Current ambience file: "+ambiencePath+ambienceFile)
+
+            ambienceFileTimer.start()
+        }
+    }
+
+    Timer {
+        id: ambienceFileTimer
+        interval: 100
+        running: false
+        repeat: false
+        onTriggered: {
+            ambienceFileProcess.start("/bin/cat", [ambiencePath+ambienceFile])
+        }
+    }
+
+    Process {
+        id: ambienceFileProcess
+        onFinished: {
+            var output = readAll()
+            console.log(output)
+            currentAmbience = JSON.parse(output)
+        }
+    }
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
@@ -27,6 +80,37 @@ Page {
             spacing: 0
             PageHeader {
                 title: qsTr("Theme Tool")
+            }
+
+            //////////////////////////////////////////////////
+
+            ExpandingSection {
+                title: "Ambience info"
+
+                content.sourceComponent: ExpandingColumn {
+
+                    DetailItem {
+                        label: "Display Name"
+                        value: currentAmbience["displayName"]
+                    }
+                    DetailItem {
+                        label: "Favorite"
+                        value: currentAmbience["favorite"]
+                    }
+                    Item {
+                        height: wallpaper.height
+                        width: parent.width
+                        Image {
+                            id: wallpaper
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            asynchronous: true
+                            source: "file://"+ambiencePath+"images/"+currentAmbience["wallpaper"]
+                            width: Theme.coverSizeLarge.width
+                            height: Theme.coverSizeLarge.height
+                            fillMode: Image.PreserveAspectCrop
+                        }
+                    }
+                }
             }
 
             //////////////////////////////////////////////////
