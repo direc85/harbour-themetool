@@ -210,9 +210,32 @@ Page {
                 }
             }
 
-            Item {
-                width: parent.width
-                height: Theme.horizontalPageMargin
+            //////////////////////////////////////////////////
+
+            ExpandingSection {
+                title: "Button Sizes"
+                content.sourceComponent: ExpandingColumn {
+                    Button {
+                        width: Theme.buttonWidthExtraSmall
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: "XSmall"
+                    }
+                    Button {
+                        width: Theme.buttonWidthSmall
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: "Small"
+                    }
+                    Button {
+                        width: Theme.buttonWidthMedium
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: "Medium"
+                    }
+                    Button {
+                        width: Theme.buttonWidthLarge
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: "Large"
+                    }
+                }
             }
         }
     }
