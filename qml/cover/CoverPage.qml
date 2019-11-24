@@ -35,7 +35,7 @@ CoverBackground {
         }
         horizontalAlignment: Text.AlignHCenter
         font.weight: Font.Bold
-        text: "Theme\nTool"
+        text: qsTr("Theme\nTool")
     }
 
     Image {

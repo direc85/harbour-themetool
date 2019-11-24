@@ -12,7 +12,7 @@
 # The name of your application
 TARGET = harbour-themetool
 
-CONFIG += sailfishapp # sailfishapp_i18n
+CONFIG += sailfishapp sailfishapp_i18n
 
 HEADERS += src/process.h
 
@@ -30,7 +30,6 @@ DISTFILES += qml/harbour-themetool.qml \
     rpm/harbour-themetool.changes.run.in \
     rpm/harbour-themetool.spec \
     rpm/harbour-themetool.yaml \
-    translations/*.ts \
     harbour-themetool.desktop
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
