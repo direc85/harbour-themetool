@@ -6,7 +6,7 @@
 
 #include <QProcess>
 #include <QVariant>
-#include <QDebug>
+//#include <QDebug>
 
 class Process : public QProcess {
     Q_OBJECT
@@ -24,7 +24,7 @@ public:
         for (int i = 0; i < arguments.length(); i++)
             args << arguments[i].toString();
 
-        qDebug() << program + " " + args.join(" ");
+        //qDebug() << program + " " + args.join(" ");
         QProcess::start(program, args);
     }
 
