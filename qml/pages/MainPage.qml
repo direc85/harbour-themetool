@@ -13,10 +13,10 @@ Page {
     property string ambienceFile
     property string ambiencePath
 
-    // As the hightlight color *usually* changes with the current Ambience,
-    // we can try to use it as an indicator when theme as changed...
-    property variant _highlightColor: Theme.highlightColor
-    on_HighlightColorChanged: {
+    // As the home screen image path changes with the ambience,
+    // we can use it as an indicator when ambience changes.
+    property string themeBackgroundImage: Theme._homeBackgroundImage
+    onThemeBackgroundImageChanged: {
         ambienceInfoTimer.start()
     }
 
