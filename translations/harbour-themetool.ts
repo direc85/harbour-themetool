@@ -16,12 +16,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Source code is available at GitHub. Translations, issues and other contributions are welcome!</source>
+        <source>License</source>
+        <comment>License: GPLv2</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>License</source>
-        <comment>License: GPLv2</comment>
+        <source>Source code is available at GitHub. Translations, bug reports and other contributions are welcome!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chinise</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -5,24 +5,28 @@
     <name>AboutPage</name>
     <message>
         <source>A simple tool to review the current ambience colors and element sizes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yksinkertainen työkalu, jolla voi tarkistella nykyisen teeman värejä ja graafisten elementtien kooja.</translation>
     </message>
     <message>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>Suomi</translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Source code is available at GitHub. Translations, issues and other contributions are welcome!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruotsi</translation>
     </message>
     <message>
         <source>License</source>
         <comment>License: GPLv2</comment>
-        <translation type="unfinished"></translation>
+        <translation>Lisenssi</translation>
+    </message>
+    <message>
+        <source>Source code is available at GitHub. Translations, bug reports and other contributions are welcome!</source>
+        <translation>Lähdekoodi on saatavilla GitHubissa. Käännökset, bugiraportit ja muut parannukset ovat tervetulleita!</translation>
+    </message>
+    <message>
+        <source>Chinise</source>
+        <translation>Kiina</translation>
     </message>
 </context>
 <context>

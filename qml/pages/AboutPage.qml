@@ -75,7 +75,7 @@ Page {
             }
             AboutLabel {
                 font.pixelSize: Theme.fontSizeSmall
-                text: qsTr("Source code is available at GitHub. Translations, issues and other contributions are welcome!")
+                text: qsTr("Source code is available at GitHub. Translations, bug reports and other contributions are welcome!")
             }
             Button {
                 text: "GitHub"
