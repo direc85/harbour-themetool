@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>AboutPage</name>
+    <message>
+        <source>A simple tool to review the current ambience colors and element sizes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finnish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chinise</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source code is available at GitHub. Translations, bug reports and other contributions are welcome!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>License</source>
+        <comment>License: GPLv2</comment>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>CoverPage</name>
     <message>
@@ -133,7 +161,7 @@ Tool</source>
     </message>
     <message>
         <source>Dark Secondary Color</source>
-        <translation>暗调和色<translation>
+        <translation>暗调和色</translation>
     </message>
     <message>
         <source>Light Colors</source>
@@ -187,6 +215,10 @@ Tool</source>
     <message>
         <source>Cover Sizes</source>
         <translation>封面大小</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
