@@ -19,12 +19,15 @@ HEADERS += src/process.h
 SOURCES += src/harbour-themetool.cpp
 
 DISTFILES += qml/harbour-themetool.qml \
+    qml/components/AboutLabel.qml \
     qml/components/CoverRect.qml \
     qml/components/ExpandingColumn.qml \
+    qml/components/GPLv2Label.qml \
     qml/components/ThemeIcon.qml \
     qml/components/ThemeLabel.qml \
     qml/components/ThemeRect.qml \
     qml/cover/CoverPage.qml \
+    qml/pages/AboutPage.qml \
     qml/pages/MainPage.qml \
     rpm/harbour-themetool.changes.in \
     rpm/harbour-themetool.changes.run.in \

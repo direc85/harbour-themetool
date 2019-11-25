@@ -17,13 +17,12 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-import QtQuick 2.6
+import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "pages"
 
-ApplicationWindow
-{
-    initialPage: Component { MainPage { } }
-    cover: Qt.resolvedUrl("cover/CoverPage.qml")
-    allowedOrientations: Orientation.All
+Label {
+    anchors.horizontalCenter: parent.horizontalCenter
+    width: parent.width - 2*Theme.horizontalPageMargin
+    horizontalAlignment: Text.AlignHCenter
+    wrapMode: Text.Wrap
 }

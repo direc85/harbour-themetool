@@ -2,6 +2,30 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="sv">
 <context>
+    <name>AboutPage</name>
+    <message>
+        <source>A simple tool to review the current ambience colors and element sizes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finnish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source code is available at GitHub. Translations, issues and other contributions are welcome!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>License</source>
+        <comment>License: GPLv2</comment>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <source>Theme
@@ -188,6 +212,10 @@ Tool</translation>
     <message>
         <source>Cover Sizes</source>
         <translation>Miniatyrstorlekar</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
