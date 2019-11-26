@@ -5,28 +5,28 @@
     <name>AboutPage</name>
     <message>
         <source>A simple tool to review the current ambience colors and element sizes.</source>
-        <translation type="unfinished"></translation>
+        <translation>一个审阅当前氛围颜色及元素大小的软件</translation>
     </message>
     <message>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>芬兰语</translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>瑞典语</translation>
     </message>
     <message>
         <source>Chinise</source>
-        <translation type="unfinished"></translation>
+        <translation>汉语</translation>
     </message>
     <message>
         <source>Source code is available at GitHub. Translations, bug reports and other contributions are welcome!</source>
-        <translation type="unfinished"></translation>
+        <translation>你可以在 Github 找到源代码。欢迎翻译、报告问题及作出其它贡献。</translation>
     </message>
     <message>
         <source>License</source>
         <comment>License: GPLv2</comment>
-        <translation type="unfinished"></translation>
+        <translation>许可协议：GPLv2</translation>
     </message>
 </context>
 <context>
@@ -161,7 +161,7 @@ Tool</source>
     </message>
     <message>
         <source>Dark Secondary Color</source>
-        <translation>暗调和色</translation>
+        <translation>深调和色</translation>
     </message>
     <message>
         <source>Light Colors</source>
@@ -173,7 +173,7 @@ Tool</source>
     </message>
     <message>
         <source>Light Secondary Color</source>
-        <translation>亮调和色</translation>
+        <translation>浅调和色</translation>
     </message>
     <message>
         <source>Presence Mode Colors</source>
@@ -218,7 +218,7 @@ Tool</source>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>关于</translation>
     </message>
 </context>
 </TS>
