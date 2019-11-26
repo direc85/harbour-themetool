@@ -337,7 +337,7 @@ Page {
                     }
                     ThemeRect {
                         color: Theme.presenceColor(Theme.PresenceAway)
-                        text: qsTr("Away Color")+" ("+Theme.presenceColor(Theme.PresenceAAway)+")"
+                        text: qsTr("Away Color")+" ("+Theme.presenceColor(Theme.PresenceAway)+")"
                     }
                     ThemeRect {
                         color: Theme.presenceColor(Theme.PresenceBusy)
