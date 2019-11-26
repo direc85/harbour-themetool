@@ -26,7 +26,7 @@ Item {
     property alias text: label.text
     property int size
 
-    Icon {
+    Image {
         id: icon
         width: parent.size
         height: parent.size
