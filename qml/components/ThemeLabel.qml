@@ -21,7 +21,9 @@ import QtQuick 2.6
 import Sailfish.Silica 1.0
 
 Label {
+    property string sizeText
     width: parent.width
     wrapMode: Text.NoWrap
     truncationMode: TruncationMode.Fade
+    text: sizeText+" ("+font.pixelSize+")"
 }

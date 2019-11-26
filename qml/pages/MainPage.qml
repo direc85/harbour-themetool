@@ -199,31 +199,31 @@ Page {
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeTiny
-                        text: qsTr("Tiny")+" ("+Theme.fontSizeTiny+"px)"
+                        sizeText: qsTr("Tiny")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeExtraSmall
-                        text: qsTr("Extra Small")+" ("+Theme.fontSizeExtraSmall+"px)"
+                        sizeText: qsTr("Extra Small")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeSmall
-                        text: qsTr("Small")+" ("+Theme.fontSizeSmall+"px)"
+                        sizeText: qsTr("Small")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeMedium
-                        text: qsTr("Medium")+" ("+Theme.fontSizeMedium+"px)"
+                        sizeText: qsTr("Medium")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeLarge
-                        text: qsTr("Large")+" ("+Theme.fontSizeLarge+"px)"
+                        sizeText: qsTr("Large")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeExtraLarge
-                        text: qsTr("Extra Large")+" ("+Theme.fontSizeExtraLarge+"px)"
+                        sizeText: qsTr("Extra Large")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeHuge
-                        text: qsTr("Huge")+" ("+Theme.fontSizeHuge+"px)"
+                        sizeText: qsTr("Huge")
                     }
                 }
             }
@@ -235,27 +235,27 @@ Page {
                 content.sourceComponent: ExpandingColumn {
                     ThemeIcon {
                         size: Theme.iconSizeExtraSmall
-                        text: qsTr("Extra Small")+" ("+Theme.iconSizeExtraSmall+"px)"
+                        text: qsTr("Extra Small")
                     }
                     ThemeIcon {
                         size: Theme.iconSizeSmall
-                        text: qsTr("Small")+" ("+Theme.iconSizeSmall+"px)"
+                        text: qsTr("Small")
                     }
                     ThemeIcon {
                         size: Theme.iconSizeMedium
-                        text: qsTr("Medium")+" ("+Theme.iconSizeMedium+"px)"
+                        text: qsTr("Medium")
                     }
                     ThemeIcon {
                         size: Theme.iconSizeLarge
-                        text: qsTr("Large")+" ("+Theme.iconSizeLarge+"px)"
+                        text: qsTr("Large")
                     }
                     ThemeIcon {
                         size: Theme.iconSizeExtraLarge
-                        text: qsTr("Extra Large")+" ("+Theme.iconSizeExtraLarge+"px)"
+                        text: qsTr("Extra Large")
                     }
                     ThemeIcon {
                         size: Theme.iconSizeLauncher
-                        text: qsTr("Launcher")+" ("+Theme.iconSizeLauncher+"px)"
+                        text: qsTr("Launcher")
                     }
                 }
             }
@@ -270,31 +270,31 @@ Page {
                     }
                     ThemeRect {
                         color: Theme.primaryColor
-                        text: qsTr("Primary Color")+" ("+Theme.primaryColor+")"
+                        text: qsTr("Primary Color")
                     }
                     ThemeRect {
                         color: Theme.secondaryColor
-                        text: qsTr("Secondary Color")+" ("+Theme.secondaryColor+")"
+                        text: qsTr("Secondary Color")
                     }
                     ThemeRect {
                         color: Theme.highlightColor
-                        text: qsTr("Highlight Color")+" ("+Theme.highlightColor+")"
+                        text: qsTr("Highlight Color")
                     }
                     ThemeRect {
                         color: Theme.highlightDimmerColor
-                        text: qsTr("Highlight Dimmer Color")+" ("+Theme.highlightDimmerColor+")"
+                        text: qsTr("Highlight Dimmer Color")
                     }
                     ThemeRect {
                         color: Theme.highlightBackgroundColor
-                        text: qsTr("Highlight Background Color")+" ("+Theme.highlightBackgroundColor+")"
+                        text: qsTr("Highlight Background Color")
                     }
                     ThemeRect {
                         color: Theme.secondaryHighlightColor
-                        text: qsTr("Secondary Highlight Color")+" ("+Theme.secondaryHighlightColor+")"
+                        text: qsTr("Secondary Highlight Color")
                     }
                     ThemeRect {
                         color: Theme.overlayBackgroundColor
-                        text: qsTr("Overlay Background Color")+" ("+Theme.overlayBackgroundColor+")"
+                        text: qsTr("Overlay Background Color")
                     }
 
 
@@ -305,12 +305,12 @@ Page {
                     ThemeRect {
                         visible: lightAmbiencesAvailable
                         color: lightAmbiencesAvailable ? Theme.darkPrimaryColor : "transparent"
-                        text: qsTr("Dark Primary Color")+" ("+Theme.darkPrimaryColor+")"
+                        text: qsTr("Dark Primary Color")
                     }
                     ThemeRect {
                         visible: lightAmbiencesAvailable
                         color: lightAmbiencesAvailable ? Theme.darkSecondaryColor : "transparent"
-                        text: qsTr("Dark Secondary Color")+" ("+Theme.darkSecondaryColor+")"
+                        text: qsTr("Dark Secondary Color")
                     }
 
                     SectionHeader {
@@ -320,12 +320,12 @@ Page {
                     ThemeRect {
                         visible: lightAmbiencesAvailable
                         color: lightAmbiencesAvailable ? Theme.lightPrimaryColor : "transparent"
-                        text: qsTr("Light Primary Color")+" ("+Theme.lightPrimaryColor+")"
+                        text: qsTr("Light Primary Color")
                     }
                     ThemeRect {
                         visible: lightAmbiencesAvailable
                         color: lightAmbiencesAvailable ? Theme.lightSecondaryColor : "transparent"
-                        text: qsTr("Light Secondary Color")+" ("+Theme.lightSecondaryColor+")"
+                        text: qsTr("Light Secondary Color")
                     }
 
                     SectionHeader {
@@ -333,19 +333,19 @@ Page {
                     }
                     ThemeRect {
                         color: Theme.presenceColor(Theme.PresenceAvailable)
-                        text: qsTr("Available Color")+" ("+Theme.presenceColor(Theme.PresenceAvailable)+")"
+                        text: qsTr("Available Color")
                     }
                     ThemeRect {
                         color: Theme.presenceColor(Theme.PresenceAway)
-                        text: qsTr("Away Color")+" ("+Theme.presenceColor(Theme.PresenceAway)+")"
+                        text: qsTr("Away Color")
                     }
                     ThemeRect {
                         color: Theme.presenceColor(Theme.PresenceBusy)
-                        text: qsTr("Busy Color")+" ("+Theme.presenceColor(Theme.PresenceBusy)+")"
+                        text: qsTr("Busy Color")
                     }
                     ThemeRect {
                         color: Theme.presenceColor(Theme.PresenceOffline)
-                        text: qsTr("Offline Color")+" ("+Theme.presenceColor(Theme.PresenceOffline)+")"
+                        text: qsTr("Offline Color")
                     }
 
                     SectionHeader {
@@ -356,7 +356,7 @@ Page {
                     ThemeRect {
                         visible: lightAmbiencesAvailable
                         color: lightAmbiencesAvailable ? Theme.errorColor : "transparent"
-                        text: qsTr("Error Color")+" ("+Theme.errorColor+")"
+                        text: qsTr("Error Color")
                     }
                 }
             }

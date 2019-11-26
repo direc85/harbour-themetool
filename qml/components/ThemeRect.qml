@@ -24,7 +24,7 @@ Item {
     width: parent.width
     height: Math.max(rect.height, label.height)
     property alias color: rect.color
-    property alias text: label.text
+    property string text
 
     Rectangle {
         id: rect
@@ -48,8 +48,8 @@ Item {
             right: parent.right
             verticalCenter: parent.verticalCenter
         }
+        text: parent.text+" ("+rect.color+")"
         wrapMode: Text.Wrap
         maximumLineCount: 2
-        text: parent.text
     }
 }

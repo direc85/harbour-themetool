@@ -23,7 +23,7 @@ import Sailfish.Silica 1.0
 Item {
     width: parent.width
     height: Math.max(icon.height, label.height)
-    property alias text: label.text
+    property string text
     property int size
 
     Image {
@@ -52,6 +52,7 @@ Item {
             right: parent.right
             verticalCenter: parent.verticalCenter
         }
+        text: parent.text+" ("+parent.size+"px)"
         wrapMode: Text.NoWrap
         truncationMode: TruncationMode.Fade
     }
