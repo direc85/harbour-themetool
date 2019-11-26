@@ -55,7 +55,7 @@ Page {
             AboutLabel {
                 font.pixelSize: Theme.fontSizeLarge
                 color: Theme.highlightColor
-                text: "Theme Tool 0.1-1"
+                text: "Theme Tool 0.2-1"
             }
             AboutLabel {
                 font.pixelSize: Theme.fontSizeSmall
