@@ -5,28 +5,28 @@
     <name>AboutPage</name>
     <message>
         <source>A simple tool to review the current ambience colors and element sizes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett enkelt verktyg för att granska den aktuella atmosfärens färger och elementstorlekar.</translation>
     </message>
     <message>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>Finska</translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>Svenska</translation>
     </message>
     <message>
         <source>License</source>
         <comment>License: GPLv2</comment>
-        <translation type="unfinished"></translation>
+        <translation>Licens: GPLv2</translation>
     </message>
     <message>
         <source>Source code is available at GitHub. Translations, bug reports and other contributions are welcome!</source>
-        <translation type="unfinished"></translation>
+        <translation>Källkoden finns tillgänglig på GitHub. Översättningar, felrapporter och andra bidrag välkommnas!</translation>
     </message>
     <message>
         <source>Chinise</source>
-        <translation type="unfinished"></translation>
+        <translation>Kinesiska</translation>
     </message>
 </context>
 <context>
@@ -219,7 +219,7 @@ Tool</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Om</translation>
     </message>
 </context>
 </TS>
