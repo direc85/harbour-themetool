@@ -45,7 +45,7 @@ Page {
 
     // As the home screen image path changes with the ambience,
     // we can use it as an indicator when ambience changes.
-    property string themeBackgroundImage: Theme._homeBackgroundImage
+    property string themeBackgroundImage: Theme.backgroundImage
     onThemeBackgroundImageChanged: {
         ambienceInfoTimer.start()
     }
@@ -151,7 +151,7 @@ Page {
                             id: wallpaper
                             anchors.horizontalCenter: parent.horizontalCenter
                             asynchronous: true
-                            source: Theme._homeBackgroundImage
+                            source: themeBackgroundImage
                             width: Theme.coverSizeLarge.width
                             height: Theme.coverSizeLarge.height
                             fillMode: Image.PreserveAspectCrop
