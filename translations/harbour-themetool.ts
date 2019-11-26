@@ -25,7 +25,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Chinise</source>
+        <source>Chinese</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

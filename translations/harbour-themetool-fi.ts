@@ -25,7 +25,7 @@
         <translation>Lähdekoodi on saatavilla GitHubissa. Käännökset, bugiraportit ja muut parannukset ovat tervetulleita!</translation>
     </message>
     <message>
-        <source>Chinise</source>
+        <source>Chinese</source>
         <translation>Kiina</translation>
     </message>
 </context>

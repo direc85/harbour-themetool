@@ -25,7 +25,7 @@
         <translation>Källkoden finns tillgänglig på GitHub. Översättningar, felrapporter och andra bidrag välkommnas!</translation>
     </message>
     <message>
-        <source>Chinise</source>
+        <source>Chinese</source>
         <translation>Kinesiska</translation>
     </message>
 </context>

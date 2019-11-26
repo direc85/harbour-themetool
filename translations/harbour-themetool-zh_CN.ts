@@ -16,7 +16,7 @@
         <translation>瑞典语</translation>
     </message>
     <message>
-        <source>Chinise</source>
+        <source>Chinese</source>
         <translation>汉语</translation>
     </message>
     <message>
