@@ -31,6 +31,7 @@ Page {
     property variant currentAmbience
     property string ambienceFile
     property int rotationAngle
+    property bool lightAmbiencesAvailable: Theme.lightPrimaryColor !== undefined
 
     onOrientationChanged: {
         if(orientation === Orientation.Portrait)
@@ -298,26 +299,32 @@ Page {
 
 
                     SectionHeader {
+                        visible: lightAmbiencesAvailable
                         text: qsTr("Dark Colors")
                     }
                     ThemeRect {
-                        color: Theme.darkPrimaryColor
+                        visible: lightAmbiencesAvailable
+                        color: lightAmbiencesAvailable ? Theme.darkPrimaryColor : "transparent"
                         text: qsTr("Dark Primary Color")+" ("+Theme.darkPrimaryColor+")"
                     }
                     ThemeRect {
-                        color: Theme.darkSecondaryColor
+                        visible: lightAmbiencesAvailable
+                        color: lightAmbiencesAvailable ? Theme.darkSecondaryColor : "transparent"
                         text: qsTr("Dark Secondary Color")+" ("+Theme.darkSecondaryColor+")"
                     }
 
                     SectionHeader {
+                        visible: lightAmbiencesAvailable
                         text: qsTr("Light Colors")
                     }
                     ThemeRect {
-                        color: Theme.lightPrimaryColor
+                        visible: lightAmbiencesAvailable
+                        color: lightAmbiencesAvailable ? Theme.lightPrimaryColor : "transparent"
                         text: qsTr("Light Primary Color")+" ("+Theme.lightPrimaryColor+")"
                     }
                     ThemeRect {
-                        color: Theme.lightSecondaryColor
+                        visible: lightAmbiencesAvailable
+                        color: lightAmbiencesAvailable ? Theme.lightSecondaryColor : "transparent"
                         text: qsTr("Light Secondary Color")+" ("+Theme.lightSecondaryColor+")"
                     }
 
@@ -342,11 +349,13 @@ Page {
                     }
 
                     SectionHeader {
+                        visible: lightAmbiencesAvailable
                         text: qsTr("Other Colors")
                     }
 
                     ThemeRect {
-                        color: Theme.errorColor
+                        visible: lightAmbiencesAvailable
+                        color: lightAmbiencesAvailable ? Theme.errorColor : "transparent"
                         text: qsTr("Error Color")+" ("+Theme.errorColor+")"
                     }
                 }
