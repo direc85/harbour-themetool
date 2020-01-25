@@ -36,11 +36,13 @@ DISTFILES += qml/harbour-themetool.qml \
     harbour-themetool.desktop \
     translations/harbour-themetool-sv.ts \
     translations/harbour-themetool-fi.ts \
-    translations/harbour-themetool-zh_CN.ts
+    translations/harbour-themetool-zh_CN.ts \
+    translations/harbour-themetool-hr.ts
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
 TRANSLATIONS += \
     translations/harbour-themetool-sv.ts \
     translations/harbour-themetool-fi.ts \
-    translations/harbour-themetool-zh_CN.ts
+    translations/harbour-themetool-zh_CN.ts \
+    translations/harbour-themetool-hr.ts
