@@ -71,7 +71,8 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 text: qsTr("Finnish")+" - Matti Viljanen\n"+
                       qsTr("Swedish")+" - Åke Engelbrektson\n"+
-                      qsTr("Chinese")+" - dashinfantry"
+                      qsTr("Chinese")+" - dashinfantry\n"+
+                      qsTr("Croatian")+" - milotype"
             }
             AboutLabel {
                 font.pixelSize: Theme.fontSizeSmall

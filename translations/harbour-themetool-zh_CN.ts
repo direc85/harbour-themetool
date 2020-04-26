@@ -28,6 +28,10 @@
         <comment>License: GPLv2</comment>
         <translation>许可协议：GPLv2</translation>
     </message>
+    <message>
+        <source>Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>

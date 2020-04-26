@@ -28,6 +28,10 @@
         <source>Chinese</source>
         <translation>Kinesiska</translation>
     </message>
+    <message>
+        <source>Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
