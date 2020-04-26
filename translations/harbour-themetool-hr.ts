@@ -229,5 +229,13 @@ dizajn ekrana</translation>
         <source>About</source>
         <translation>Informacije</translation>
     </message>
+    <message>
+        <source>Padding sizes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Item sizes</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

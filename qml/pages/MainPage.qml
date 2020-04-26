@@ -267,6 +267,58 @@ Page {
             //////////////////////////////////////////////////
 
             ExpandingSection {
+                title: qsTr("Padding sizes")
+                content.sourceComponent: ExpandingColumn {
+                    ThemeIcon {
+                        size: Theme.paddingSmall
+                        text: qsTr("Small")
+                    }
+                    ThemeIcon {
+                        size: Theme.paddingMedium
+                        text: qsTr("Medium")
+                    }
+                    ThemeIcon {
+                        size: Theme.paddingLarge
+                        text: qsTr("Large")
+                    }
+                }
+            }
+
+            //////////////////////////////////////////////////
+
+            ExpandingSection {
+                title: qsTr("Item sizes")
+                content.sourceComponent: ExpandingColumn {
+                    ThemeIcon {
+                        size: Theme.itemSizeExtraSmall
+                        text: qsTr("Extra Small")
+                    }
+                    ThemeIcon {
+                        size: Theme.itemSizeSmall
+                        text: qsTr("Small")
+                    }
+                    ThemeIcon {
+                        size: Theme.itemSizeMedium
+                        text: qsTr("Medium")
+                    }
+                    ThemeIcon {
+                        size: Theme.itemSizeLarge
+                        text: qsTr("Large")
+                    }
+                    ThemeIcon {
+                        size: Theme.itemSizeExtraLarge
+                        text: qsTr("Extra Large")
+                    }
+                    ThemeIcon {
+                        size: Theme.itemSizeHuge
+                        text: qsTr("Huge")
+                    }
+                }
+            }
+
+            //////////////////////////////////////////////////
+
+            ExpandingSection {
                 title: qsTr("Colors")
                 content.sourceComponent: ExpandingColumn {
                     SectionHeader {

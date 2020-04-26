@@ -228,5 +228,13 @@ Tool</source>
         <source>About</source>
         <translation>关于</translation>
     </message>
+    <message>
+        <source>Padding sizes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Item sizes</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

@@ -229,5 +229,13 @@ Tool</translation>
         <source>About</source>
         <translation>Tietoja</translation>
     </message>
+    <message>
+        <source>Padding sizes</source>
+        <translation>Puskurien koot</translation>
+    </message>
+    <message>
+        <source>Item sizes</source>
+        <translation>Kohteiden koot</translation>
+    </message>
 </context>
 </TS>
