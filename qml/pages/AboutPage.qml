@@ -55,12 +55,12 @@ Page {
             AboutLabel {
                 font.pixelSize: Theme.fontSizeLarge
                 color: Theme.highlightColor
-                text: "Theme Tool 0.3-1"
+                text: "Theme Tool " + app_version
             }
             AboutLabel {
                 font.pixelSize: Theme.fontSizeSmall
                 color: Theme.primaryColor
-                text: "© 2019 Matti Viljanen"
+                text: "© 2019-2020 Matti Viljanen"
             }
             AboutLabel {
                 font.pixelSize: Theme.fontSizeSmall

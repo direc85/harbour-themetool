@@ -21,13 +21,16 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include <QtQuick>
 #endif
 
-#include <QtQml>
 #include <sailfishapp.h>
+
+#include <QGuiApplication>
+#include <QQuickView>
+#include <QtQml>
 #include "src/process.h"
 
 int main(int argc, char *argv[])
 {
-    // SailfishApp::main() will display "qml/harbour-fontsize.qml", if you need more
+    // SailfishApp::main() will display "qml/harbour-[name].qml", if you need more
     // control over initialization, you can use:
     //
     //   - SailfishApp::application(int, char *[]) to get the QGuiApplication *
@@ -37,7 +40,17 @@ int main(int argc, char *argv[])
     //
     // To display the view, call "show()" (will show fullscreen on device).
 
-    qmlRegisterType<Process>("Process", 1, 0, "Process");
 
-    return SailfishApp::main(argc, argv);
+    QGuiApplication* app = SailfishApp::application(argc, argv);
+    app->setApplicationVersion(QString(APP_VERSION));
+
+    QQuickView* view = SailfishApp::createView();
+
+    qmlRegisterType<Process>("Process", 1, 0, "Process");
+    view->rootContext()->setContextProperty("app_version", APP_VERSION);
+    view->setSource(SailfishApp::pathTo(APP_QML));
+
+    view->showFullScreen();
+
+    return app->exec();
 }
