@@ -170,6 +170,10 @@ Page {
                     SectionHeader {
                         text: qsTr("System font size")
                     }
+                    Label {
+                        text: "Pixel ratio: "+Theme.pixelRatio
+                    }
+
                     Item {
                         width: parent.width
                         height: button.height
