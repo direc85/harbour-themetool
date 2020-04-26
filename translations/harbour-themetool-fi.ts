@@ -32,6 +32,10 @@
         <source>Croatian</source>
         <translation>Kroatia</translation>
     </message>
+    <message>
+        <source>If you like my work and would like to support me, you can buy me a coffee!</source>
+        <translation>Jos pidät työstäni ja haluat tukea minua, voit ostaa minulle kahvin!</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>

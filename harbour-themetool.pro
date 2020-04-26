@@ -60,3 +60,8 @@ TRANSLATIONS += \
     translations/harbour-themetool-fi.ts \
     translations/harbour-themetool-zh_CN.ts \
     translations/harbour-themetool-hr.ts
+
+images.files = images
+images.path = /usr/share/$${TARGET}
+
+INSTALLS += images
