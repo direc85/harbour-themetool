@@ -23,6 +23,11 @@ DEFINES += APP_VERSION=\"\\\"$$VERSION\\\"\"
 DEFINES += APP_NAME=\"\\\"$$TARGET\\\"\"
 DEFINES += APP_QML=\"\\\"qml/$${TARGET}.qml\\\"\"
 
+# Do not define QT_NO_DEBUG_OUTPUT!
+# Use "--verbose" and "--debug" at runtime instead.
+# See main() for details.
+#DEFINES += QT_NO_DEBUG_OUTPUT
+
 HEADERS += src/process.h
 
 SOURCES += src/harbour-themetool.cpp
