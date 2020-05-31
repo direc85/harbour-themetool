@@ -92,7 +92,7 @@ Page {
 
                 Image {
                     anchors.centerIn: parent
-                    source: Qt.resolvedUrl("/usr/share/harbour-batterybuddy/images/Ko-fi_Icon_RGB_rounded.png")
+                    source: Qt.resolvedUrl("/usr/share/harbour-themetool/images/Ko-fi_Icon_RGB_rounded.png")
                     width: Theme.iconSizeExtraLarge
                     height: Theme.iconSizeExtraLarge
                     smooth: true
