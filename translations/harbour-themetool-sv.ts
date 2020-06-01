@@ -30,11 +30,11 @@
     </message>
     <message>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Kroatiska</translation>
     </message>
     <message>
         <source>If you like my work and would like to support me, you can buy me a coffee!</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du gillar mitt arbete och vill stödja mig, kan du bjuda mig på en kopp kaffe!</translation>
     </message>
 </context>
 <context>
@@ -231,11 +231,11 @@ Tool</translation>
     </message>
     <message>
         <source>Padding sizes</source>
-        <translation type="unfinished"></translation>
+        <translation>Utfyllnadsstorlekar</translation>
     </message>
     <message>
         <source>Item sizes</source>
-        <translation type="unfinished"></translation>
+        <translation>Objektstorlekar</translation>
     </message>
 </context>
 </TS>
