@@ -30,11 +30,11 @@
     </message>
     <message>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>克罗地亚语</translation>
     </message>
     <message>
         <source>If you like my work and would like to support me, you can buy me a coffee!</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你喜欢我的作品并且愿意给我提供租出去，不妨考虑给我买杯咖啡！</translation>
     </message>
 </context>
 <context>
@@ -230,11 +230,11 @@ Tool</source>
     </message>
     <message>
         <source>Padding sizes</source>
-        <translation type="unfinished"></translation>
+        <translation>填充大小</translation>
     </message>
     <message>
         <source>Item sizes</source>
-        <translation type="unfinished"></translation>
+        <translation>项目大小</translation>
     </message>
 </context>
 </TS>
