@@ -290,6 +290,10 @@ Page {
                         text: qsTr("Small")
                     }
                     ThemeIcon {
+                        size: Theme.iconSizeSmallPlus
+                        text: qsTr("Small Plus")
+                    }
+                    ThemeIcon {
                         size: Theme.iconSizeMedium
                         text: qsTr("Medium")
                     }
