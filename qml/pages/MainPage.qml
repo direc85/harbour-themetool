@@ -178,10 +178,16 @@ Page {
 
                 content.sourceComponent: ExpandingColumn {
                     SectionHeader {
-                        text: qsTr("System font size")
+                        text: qsTr("System font properties")
                     }
                     Label {
-                        text: "Pixel ratio: "+Theme.pixelRatio
+                        text: qsTr("Default Font") + ": " + Theme.fontFamily
+                    }
+                    Label {
+                        text: qsTr("Heading Font") + ": " + Theme.fontFamilyHeading
+                    }
+                    Label {
+                        text: qsTr("Pixel ratio") + ": " + Theme.pixelRatio
                     }
 
                     Item {
