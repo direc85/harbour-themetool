@@ -77,10 +77,6 @@ Tool</translation>
         <translation>Tekstikoot</translation>
     </message>
     <message>
-        <source>System font size</source>
-        <translation>Järjestelmän tekstikoko</translation>
-    </message>
-    <message>
         <source>Normal</source>
         <translation>Normaali</translation>
     </message>
@@ -236,6 +232,75 @@ Tool</translation>
     <message>
         <source>Item sizes</source>
         <translation>Kohteiden koot</translation>
+    </message>
+    <message>
+        <source>System font properties</source>
+        <translation>Fonttien ominaisuudet</translation>
+    </message>
+    <message>
+        <source>Default Font</source>
+        <translation>Oletusfontti</translation>
+    </message>
+    <message>
+        <source>Heading Font</source>
+        <translation>Otsikkofontti</translation>
+    </message>
+    <message>
+        <source>Pixel ratio</source>
+        <translation>Pikselisuhde</translation>
+    </message>
+    <message>
+        <source>Tiny Base</source>
+        <translation>Pikkuinen vakio</translation>
+    </message>
+    <message>
+        <source>Extra Small Base</source>
+        <translation>Erittäin pieni vakio</translation>
+    </message>
+    <message>
+        <source>Small Base</source>
+        <translation>Pieni vakio</translation>
+    </message>
+    <message>
+        <source>Medium Base</source>
+        <translation>Keskikoko vakio</translation>
+    </message>
+    <message>
+        <source>Large Base</source>
+        <translation>Suuri vakio</translation>
+    </message>
+    <message>
+        <source>Extra Large Base</source>
+        <translation>Erittäin suuri vakio</translation>
+    </message>
+    <message>
+        <source>Huge Base</source>
+        <translation>Valtava vakio</translation>
+    </message>
+    <message>
+        <source>Small Plus</source>
+        <translation>Pieni plus</translation>
+    </message>
+    <message>
+        <source>Tiny</source>
+        <comment>Must fit in the button.</comment>
+        <translation>Pikkuinen</translation>
+    </message>
+    <message>
+        <source>Color Scheme</source>
+        <translation>Värimalli</translation>
+    </message>
+    <message>
+        <source>Dark on light</source>
+        <translation>Tumma vaalealla</translation>
+    </message>
+    <message>
+        <source>Light on dark</source>
+        <translation>Vaalea tummalla</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versio</translation>
     </message>
 </context>
 </TS>

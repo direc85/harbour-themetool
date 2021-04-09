@@ -76,10 +76,6 @@ Tool</source>
         <translation>字体大小</translation>
     </message>
     <message>
-        <source>System font size</source>
-        <translation>系统字体大小</translation>
-    </message>
-    <message>
         <source>Normal</source>
         <translation>正常</translation>
     </message>
@@ -235,6 +231,75 @@ Tool</source>
     <message>
         <source>Item sizes</source>
         <translation>项目大小</translation>
+    </message>
+    <message>
+        <source>System font properties</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default Font</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Heading Font</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tiny Base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extra Small Base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Small Base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Medium Base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Large Base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extra Large Base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Huge Base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Small Plus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tiny</source>
+        <comment>Must fit in the button.</comment>
+        <translation type="unfinished">微小</translation>
+    </message>
+    <message>
+        <source>Color Scheme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dark on light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Light on dark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
