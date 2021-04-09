@@ -471,6 +471,11 @@ Page {
                 title: qsTr("Button Sizes")
                 content.sourceComponent: ExpandingColumn {
                     Button {
+                        width: Theme.buttonWidthTiny
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: qsTr("Tiny", "Must fit in the button.")
+                    }
+                    Button {
                         width: Theme.buttonWidthExtraSmall
                         anchors.horizontalCenter: parent.horizontalCenter
                         text: qsTr("XSmall", "Must fit in the button.")
