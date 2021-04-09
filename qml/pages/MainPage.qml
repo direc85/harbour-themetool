@@ -218,28 +218,56 @@ Page {
                         text: qsTr("Sample texts")
                     }
                     ThemeLabel {
+                        font.pixelSize: Theme.fontSizeTinyBase
+                        sizeText: qsTr("Tiny Base")
+                    }
+                    ThemeLabel {
                         font.pixelSize: Theme.fontSizeTiny
                         sizeText: qsTr("Tiny")
+                    }
+                    ThemeLabel {
+                        font.pixelSize: Theme.fontSizeExtraSmallBase
+                        sizeText: qsTr("Extra Small Base")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeExtraSmall
                         sizeText: qsTr("Extra Small")
                     }
                     ThemeLabel {
+                        font.pixelSize: Theme.fontSizeSmallBase
+                        sizeText: qsTr("Small Base")
+                    }
+                    ThemeLabel {
                         font.pixelSize: Theme.fontSizeSmall
                         sizeText: qsTr("Small")
+                    }
+                    ThemeLabel {
+                        font.pixelSize: Theme.fontSizeMediumBase
+                        sizeText: qsTr("Medium Base")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeMedium
                         sizeText: qsTr("Medium")
                     }
                     ThemeLabel {
+                        font.pixelSize: Theme.fontSizeLargeBase
+                        sizeText: qsTr("Large Base")
+                    }
+                    ThemeLabel {
                         font.pixelSize: Theme.fontSizeLarge
                         sizeText: qsTr("Large")
                     }
                     ThemeLabel {
+                        font.pixelSize: Theme.fontSizeExtraLargeBase
+                        sizeText: qsTr("Extra Large Base")
+                    }
+                    ThemeLabel {
                         font.pixelSize: Theme.fontSizeExtraLarge
                         sizeText: qsTr("Extra Large")
+                    }
+                    ThemeLabel {
+                        font.pixelSize: Theme.fontSizeHugeBase
+                        sizeText: qsTr("Huge Base")
                     }
                     ThemeLabel {
                         font.pixelSize: Theme.fontSizeHuge
