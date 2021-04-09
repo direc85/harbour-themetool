@@ -14,8 +14,8 @@ TARGET = harbour-themetool
 
 CONFIG += console sailfishapp sailfishapp_i18n
 
-VER = 0.5
-REL = 3
+VER = 0.6
+REL = 1
 
 VERSION = $${VER}-$${REL}
 $$system(bash update-spec-version.sh $$TARGET $$VER $$REL)
