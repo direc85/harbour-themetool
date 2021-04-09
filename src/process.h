@@ -12,7 +12,7 @@ class Process : public QProcess {
     Q_OBJECT
 
 public:
-    Process(QObject *parent = 0) : QProcess(parent) {
+    Process(QObject *parent = nullptr) : QProcess(parent) {
 
     }
 
