@@ -46,7 +46,7 @@ Page {
 
     // As the home screen image path changes with the ambience,
     // we can use it as an indicator when ambience changes.
-    property string themeBackgroundImage: Theme.backgroundImage
+    property string themeBackgroundImage: Theme._homeBackgroundImage
     onThemeBackgroundImageChanged: {
         ambienceInfoTimer.start()
     }

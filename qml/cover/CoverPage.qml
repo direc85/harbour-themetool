@@ -61,7 +61,7 @@ CoverBackground {
         id: wallpaper
         anchors.fill: parent
         asynchronous: true
-        source: Theme.backgroundImage
+        source: Theme._homeBackgroundImage
         fillMode: Image.PreserveAspectCrop
         opacity: 0.25
     }
