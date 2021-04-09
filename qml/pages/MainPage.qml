@@ -141,8 +141,18 @@ Page {
                         value: currentAmbience["displayName"]
                     }
                     DetailItem {
+                        label: qsTr("Color Scheme")
+                        value: currentAmbience["colorScheme"] === "darkonlight"
+                               ? qsTr("Dark on light")
+                               : qsTr("Light on dark")
+                    }
+                    DetailItem {
                         label: qsTr("Favorite")
                         value: currentAmbience["favorite"] ? qsTr("Yes") : qsTr("No")
+                    }
+                    DetailItem {
+                        label: qsTr("Version")
+                        value: currentAmbience["version"]
                     }
                     Item {
                         height: wallpaper.height
