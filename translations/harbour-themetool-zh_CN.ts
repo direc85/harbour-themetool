@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>A simple tool to review the current ambience colors and element sizes.</source>
-        <translation>一个审阅当前氛围颜色及元素大小的软件</translation>
+        <translation>一个用于查看当前氛围颜色及元素大小的软件。</translation>
     </message>
     <message>
         <source>Finnish</source>
@@ -34,7 +34,7 @@
     </message>
     <message>
         <source>If you like my work and would like to support me, you can buy me a coffee!</source>
-        <translation>如果你喜欢我的作品并且愿意给我提供租出去，不妨考虑给我买杯咖啡！</translation>
+        <translation>如果你喜欢我的作品并且愿意给我提供支持，不妨考虑给我买杯咖啡！</translation>
     </message>
 </context>
 <context>
@@ -133,7 +133,7 @@ Tool</source>
     </message>
     <message>
         <source>Secondary Color</source>
-        <translation>调和色</translation>
+        <translation>次色</translation>
     </message>
     <message>
         <source>Highlight Color</source>
@@ -141,15 +141,15 @@ Tool</source>
     </message>
     <message>
         <source>Highlight Dimmer Color</source>
-        <translation>强调调色板颜色</translation>
+        <translation>强调暗淡颜色</translation>
     </message>
     <message>
         <source>Highlight Background Color</source>
-        <translation>背景强调色</translation>
+        <translation>强调背景色</translation>
     </message>
     <message>
         <source>Secondary Highlight Color</source>
-        <translation>调和强调色</translation>
+        <translation>次强调色</translation>
     </message>
     <message>
         <source>Overlay Background Color</source>
@@ -165,7 +165,7 @@ Tool</source>
     </message>
     <message>
         <source>Dark Secondary Color</source>
-        <translation>深调和色</translation>
+        <translation>深次色</translation>
     </message>
     <message>
         <source>Light Colors</source>
@@ -177,7 +177,7 @@ Tool</source>
     </message>
     <message>
         <source>Light Secondary Color</source>
-        <translation>浅调和色</translation>
+        <translation>浅次色</translation>
     </message>
     <message>
         <source>Presence Mode Colors</source>
@@ -205,7 +205,7 @@ Tool</source>
     </message>
     <message>
         <source>Error Color</source>
-        <translation>报错颜色</translation>
+        <translation>错误颜色</translation>
     </message>
     <message>
         <source>Button Sizes</source>
@@ -234,72 +234,72 @@ Tool</source>
     </message>
     <message>
         <source>System font properties</source>
-        <translation type="unfinished"></translation>
+        <translation>系统字体属性</translation>
     </message>
     <message>
         <source>Default Font</source>
-        <translation type="unfinished"></translation>
+        <translation>默认字体</translation>
     </message>
     <message>
         <source>Heading Font</source>
-        <translation type="unfinished"></translation>
+        <translation>标题字体</translation>
     </message>
     <message>
         <source>Pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>像素比率</translation>
     </message>
     <message>
         <source>Tiny Base</source>
-        <translation type="unfinished"></translation>
+        <translation>微小</translation>
     </message>
     <message>
         <source>Extra Small Base</source>
-        <translation type="unfinished"></translation>
+        <translation>超小</translation>
     </message>
     <message>
         <source>Small Base</source>
-        <translation type="unfinished"></translation>
+        <translation>小号</translation>
     </message>
     <message>
         <source>Medium Base</source>
-        <translation type="unfinished"></translation>
+        <translation>中号</translation>
     </message>
     <message>
         <source>Large Base</source>
-        <translation type="unfinished"></translation>
+        <translation>大号</translation>
     </message>
     <message>
         <source>Extra Large Base</source>
-        <translation type="unfinished"></translation>
+        <translation>特大号</translation>
     </message>
     <message>
         <source>Huge Base</source>
-        <translation type="unfinished"></translation>
+        <translation>巨大号</translation>
     </message>
     <message>
         <source>Small Plus</source>
-        <translation type="unfinished"></translation>
+        <translation>小号</translation>
     </message>
     <message>
         <source>Tiny</source>
         <comment>Must fit in the button.</comment>
-        <translation type="unfinished">微小</translation>
+        <translation>微小</translation>
     </message>
     <message>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>颜色方案</translation>
     </message>
     <message>
         <source>Dark on light</source>
-        <translation type="unfinished"></translation>
+        <translation>深色或亮色</translation>
     </message>
     <message>
         <source>Light on dark</source>
-        <translation type="unfinished"></translation>
+        <translation>亮色或深色</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>版本</translation>
     </message>
 </context>
 </TS>
