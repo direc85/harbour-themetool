@@ -235,72 +235,72 @@ Tool</translation>
     </message>
     <message>
         <source>System font properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Egenskaper för systemteckensnitt</translation>
     </message>
     <message>
         <source>Default Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardteckensnitt</translation>
     </message>
     <message>
         <source>Heading Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Rubrikteckensnitt</translation>
     </message>
     <message>
         <source>Pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildpunktsförhållande</translation>
     </message>
     <message>
         <source>Tiny Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Pytteliten bas</translation>
     </message>
     <message>
         <source>Extra Small Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Extra liten bas</translation>
     </message>
     <message>
         <source>Small Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Liten bas</translation>
     </message>
     <message>
         <source>Medium Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Mediumbas</translation>
     </message>
     <message>
         <source>Large Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Stor bas</translation>
     </message>
     <message>
         <source>Extra Large Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Extra stor bas</translation>
     </message>
     <message>
         <source>Huge Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Enorm bas</translation>
     </message>
     <message>
         <source>Small Plus</source>
-        <translation type="unfinished"></translation>
+        <translation>Liten plus</translation>
     </message>
     <message>
         <source>Tiny</source>
         <comment>Must fit in the button.</comment>
-        <translation type="unfinished">Pytteliten</translation>
+        <translation>Pytteliten</translation>
     </message>
     <message>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgschema</translation>
     </message>
     <message>
         <source>Dark on light</source>
-        <translation type="unfinished"></translation>
+        <translation>Mörk på ljus</translation>
     </message>
     <message>
         <source>Light on dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljus på mörk</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Version</translation>
     </message>
 </context>
 </TS>
