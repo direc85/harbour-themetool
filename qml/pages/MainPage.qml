@@ -70,7 +70,6 @@ Page {
         onFinished: {
             ambienceFile = readAll()
             ambienceFile = ambienceFile.replace(/'/g,"").replace("\n","")
-            //console.log("Current ambience file: "+ambienceFile)
             ambienceFileTimer.start()
         }
     }
@@ -89,7 +88,6 @@ Page {
         id: ambienceFileProcess
         onFinished: {
             var output = readAll()
-            //console.log(output)
             currentAmbience = JSON.parse(output)
         }
     }
