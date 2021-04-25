@@ -23,11 +23,6 @@ DEFINES += APP_VERSION=\"\\\"$$VERSION\\\"\"
 DEFINES += APP_NAME=\"\\\"$$TARGET\\\"\"
 DEFINES += APP_QML=\"\\\"qml/$${TARGET}.qml\\\"\"
 
-# Do not define QT_NO_DEBUG_OUTPUT!
-# Use "--verbose" and "--debug" at runtime instead.
-# See main() for details.
-#DEFINES += QT_NO_DEBUG_OUTPUT
-
 HEADERS += src/process.h
 
 SOURCES += src/harbour-themetool.cpp
@@ -43,8 +38,7 @@ DISTFILES += qml/harbour-themetool.qml \
     qml/cover/CoverPage.qml \
     qml/pages/AboutPage.qml \
     qml/pages/MainPage.qml \
-    rpm/harbour-themetool.changes.in \
-    rpm/harbour-themetool.changes.run.in \
+    rpm/harbour-batterybuddy.changes \
     rpm/harbour-themetool.spec \
     rpm/harbour-themetool.yaml \
     harbour-themetool.desktop \

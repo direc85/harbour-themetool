@@ -1,0 +1,39 @@
+* 0.7-1
+- Update Swedish translation (thanks, eson57)
+- Remove command line parameters
+- Remove debug output
+- Simplify process launch code
+
+* 0.6-2
+- Fix background image on SFOS 4.0
+- Add lots of missing elements and sizes
+- Show more Ambience info
+- Always enable debug output on emulator
+- Update Chinese translation (thanks, dashinfantry) (0.6-2)
+
+* 0.5-3
+- Add Them.padding* and Theme.itemSize* elements
+- Add Pixel ratio info
+- Add Ko-Fi link
+- Update Swedish translation (thanks, eson57) (0.5-2)
+- Update Chinese translation (thanks, dashinfantry) (0.5-3)
+
+* 0.4-1
+- Add Croatian translation (thanks, milotype)
+
+* 0.3-1
+- Fix white screen in SFOS 2.2.1.18
+- Don't try to display light/dark ambience colors with SFOS 2.2.1.18
+- Simplify printing items' detailed text, cut down repetition
+- Update Chinese and Swedish translations
+- Type word "Chinese" correctly
+
+* 0.2-1
+- Make application translatable
+- Add about page
+- Add license details
+- Add Swedish translation (thanks, eson57)
+- Add Finnish translation
+
+* 0.1-1
+- Initial release
