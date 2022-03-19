@@ -14,11 +14,7 @@ TARGET = harbour-themetool
 
 CONFIG += console sailfishapp sailfishapp_i18n
 
-VER = 0.7
-REL = 1
-
-VERSION = $${VER}-$${REL}
-$$system(bash update-spec-version.sh $$TARGET $$VER $$REL)
+VERSION = 0.7-1
 DEFINES += APP_VERSION=\"\\\"$$VERSION\\\"\"
 DEFINES += APP_NAME=\"\\\"$$TARGET\\\"\"
 DEFINES += APP_QML=\"\\\"qml/$${TARGET}.qml\\\"\"
