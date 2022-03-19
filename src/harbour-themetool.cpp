@@ -41,6 +41,7 @@ int main(int argc, char *argv[])
     // To display the view, call "show()" (will show fullscreen on device).
 
     QGuiApplication* app = SailfishApp::application(argc, argv);
+    app->setApplicationName(APP_NAME);
     app->setApplicationVersion(QString(APP_VERSION));
 
     QQuickView* view = SailfishApp::createView();
