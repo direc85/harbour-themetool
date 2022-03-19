@@ -4,3 +4,6 @@ X-Nemo-Application-Type=silica-qt5
 Icon=harbour-themetool
 Exec=harbour-themetool
 Name=Theme Tool
+
+[X-Sailjail]
+Sandboxing=Disabled
