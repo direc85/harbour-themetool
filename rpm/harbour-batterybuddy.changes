@@ -1,3 +1,7 @@
+* 0.8-1
+- Disable Sailjail
+- Packaging improvements
+
 * 0.7-1
 - Update Swedish translation (thanks, eson57)
 - Remove command line parameters

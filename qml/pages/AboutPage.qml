@@ -60,7 +60,7 @@ Page {
             AboutLabel {
                 font.pixelSize: Theme.fontSizeSmall
                 color: Theme.primaryColor
-                text: "© 2019-2020 Matti Viljanen"
+                text: "© 2019-2022 Matti Viljanen"
             }
             AboutLabel {
                 font.pixelSize: Theme.fontSizeSmall

@@ -14,7 +14,8 @@ TARGET = harbour-themetool
 
 CONFIG += console sailfishapp sailfishapp_i18n
 
-VERSION = 0.7-1
+VERSION = 0.8-1
+
 DEFINES += APP_VERSION=\"\\\"$$VERSION\\\"\"
 DEFINES += APP_NAME=\"\\\"$$TARGET\\\"\"
 DEFINES += APP_QML=\"\\\"qml/$${TARGET}.qml\\\"\"
